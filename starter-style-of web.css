@@ -131,13 +131,13 @@ body {
 
 }
 
-@media (min-width:768px) and (max-width:990px) {
+@media (min-width:768px) and (max-width:991px) {
 
     /* ipad mini & ipad air media query  */
 
 }
 
-@media (min-width:991px) and (max-width:1199px) {
+@media (min-width:992px) and (max-width:1199px) {
 
     /* ipad pro media query  */
 

@@ -1,0 +1,195 @@
+:root {
+    --font-size-10: 0.625rem;
+    --font-size-12: 0.75rem;
+    --font-size-14: 0.875rem;
+    --font-size-16: 1rem;
+    --font-size-18: 1.125rem;
+    --font-size-20: 1.125rem;
+    --font-size-24: 1.5rem;
+    --font-size-30: 1.875rem;
+    --font-size-36: 2.25rem;
+    --font-size-48: 3rem;
+    --font-size-55: 3.438rem;
+    --font-size-70: 4.375rem;
+    --font-size-72: 4.5rem;
+    --f-s-10: 10px;
+    --f-s-12: 12px;
+    --f-s-14: 14px;
+    --f-s-16: 16px;
+    --f-s-18: 18px;
+    --f-s-20: 20px;
+    --f-s-22: 22px;
+    --f-s-24: 24px;
+    --f-s-30: 30px;
+    --f-s-36: 36px;
+    --f-s-38: 38px;
+    --f-s-50: 50px;
+    --f-s-45: 45px;
+    --f-s-48: 48px;
+    --f-s-55: 55px;
+    --f-s-70: 70px;
+    --f-s-72: 72px;
+    --f-s-90: 90px;
+    --fontRegular: 400;
+    --fontLight: 300;
+    --fontSemiBold: 500;
+    --fontBold: 700;
+    --fontInter: 'Inter', sans-serif;
+    --color-lightgrey: #F2F2F7;
+    --color-green: #228B22;
+    --color-white: #ffffff;
+    --color-darkgrey: #414042;
+    --color-black: #000000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    touch-action: pan-x pan-y;
+    font-family: var(--fontInter);
+    color: var(--color-black);
+    box-sizing: border-box;
+}
+
+/* default css for whole site start */
+
+.default-space {
+    margin: 100px 0;
+}
+
+.default-inside-space {
+    padding: 100px 0;
+}
+
+.main-heading {
+    font-size: var(--f-s-90);
+    font-weight: var(--fontBold);
+    color: var(--color-green);
+    font-family: var(--fontInter);
+}
+
+.default-heading {
+    font-size: var(--f-s-50);
+    font-weight: var(--fontBold);
+    color: var(--color-black);
+    font-family: var(--fontInter);
+}
+
+.sub-heading {
+    font-size: var(--f-s-36);
+    font-weight: var(--fontBold);
+    color: var(--color-darkgrey);
+    font-family: var(--fontInter);
+}
+
+.default-para {
+    font-size: var(--font-size-24);
+    color: var(--color-black);
+    font-family: var(--fontInter);
+}
+
+
+.secondary-para {
+    font-size: var(--font-size-18);
+    color: var(--color-black);
+    font-family: var(--fontInter);
+}
+
+.standard-button {
+    font-size: var(--font-size-16);
+    color: var(--color-lightgrey);
+    font-family: var(--fontInter);
+    background-color: var(--color-green);
+
+}
+
+.standard-btn {
+    background-color: var(--color-green);
+    ont-size: var(--font-size-16);
+    color: var(--color-lightgrey);
+    border-radius: 5px;
+    padding: 10px 50px;
+    text-decoration: none;
+    transition: all 0.15s ease-in-out;
+    border: 1px solid var(--color-green);
+}
+
+.standard-btn:hover {
+    background-color: var(--color-lightgrey);
+    color: var(--color-green);
+}
+
+.secondary-btn {
+    background-color: var(--color-lightgrey);
+    ont-size: var(--font-size-16);
+    color: var(--color-green);
+    border-radius: 5px;
+    padding: 10px 50px;
+    text-decoration: none;
+    transition: all 0.15s ease-in-out;
+    border: 1px solid var(--color-green);
+}
+
+.secondary-btn:hover {
+    background-color: var(--color-green);
+    color: var(--color-lightgrey);
+}
+
+/* default css for whole site end */
+
+
+@media (min-width:280px) and (max-width:1199px) {
+
+    /* ipad to mobile media query  */
+
+}
+
+@media (min-width:280px) and (max-width:575px) {
+
+    /* mobile media query  */
+
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+    /* ipad mini & ipad air media query  */
+
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+
+    /* ipad pro media query  */
+
+}
+
+@media (min-width: 1200px) and (max-width: 1280px) {
+
+    /* 1280 desktop media query  */
+
+}
+
+@media (min-width:1400px) and (max-width:1460px) {
+
+    /* 1440 desktop media query  */
+
+}
+
+@media (min-width: 1600px) and (max-width:1699px) {
+
+    /* 1600 and 1680 desktop media query  */
+
+}
+
+@media (min-width: 1700px) {
+
+    /* 1920 desktop media query  */
+
+}
+
+@media (min-width: 2500px) {
+
+    /* 2560 desktop media query  */
+
+}
